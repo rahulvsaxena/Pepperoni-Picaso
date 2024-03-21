@@ -1,7 +1,13 @@
+//what are we trying to do?
+//set the value of search to whatever we have typed in search in search bar
+
+//state: means current state of search
+//action.payload: new thing 
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const SearchSlice = createSlice({
-  name: "search",
+  name: "search", //you can name it anything, it just for readiability
   initialState: {
     search: "",
   },

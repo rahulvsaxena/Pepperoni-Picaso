@@ -5,9 +5,7 @@ import checkbox from "../assets/check.png";
 const Success = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    setTimeout(() => {setLoading(false);}, 3000);
   }, []);
   return (
     <div className="flex flex-col items-center justify-center h-screen">
