@@ -1,5 +1,5 @@
-
-
+//whats useDispatch?
+//sends action to redux store
 import React from "react";
 import { useDispatch } from "react-redux";
 import { setSearch } from "../redux/slices/SearchSlice";

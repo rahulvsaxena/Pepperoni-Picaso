@@ -11,7 +11,6 @@ import { toast } from "react-hot-toast";
 
 const ItemCard = ({ id, name, qty, price, img }) => {
   const dispatch = useDispatch();
-
   return (
     <div className="flex gap-2 shadow-md rounded-lg p-2 mb-3">
       <MdDelete

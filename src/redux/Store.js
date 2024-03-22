@@ -8,7 +8,7 @@ const Store = configureStore({
   //then we define departments in store in this case 3
   //reducers: take in the previous state and an action and return the newly updated state
   reducer: {
-    cart: CartSlice, //each department has manager
+    cartt: CartSlice, //each department has manager,see Cart.jsx for reference
     category: CategorySlice,
     search: SearchSlice,
   },
